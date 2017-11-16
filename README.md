@@ -29,7 +29,7 @@ export default class foo {
     }
 
     render() {
-        return (<H2 text={this.props.showTitle} className={'title'} />);
+        return (<H2 text={'title'} className={'css-class-name'} />);
     }
 }
 ```
