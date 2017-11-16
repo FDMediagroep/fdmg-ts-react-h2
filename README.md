@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/FDMediagroep/fdmg-ts-react-h1.svg?branch=master)](https://travis-ci.org/FDMediagroep/fdmg-ts-react-h1)
-[![Coverage Status](https://coveralls.io/repos/github/FDMediagroep/fdmg-ts-react-h1/badge.svg?branch=master)](https://coveralls.io/github/FDMediagroep/fdmg-ts-react-h1?branch=master)
+[![Build Status](https://travis-ci.org/FDMediagroep/fdmg-ts-react-h2.svg?branch=master)](https://travis-ci.org/FDMediagroep/fdmg-ts-react-h2)
+[![Coverage Status](https://coveralls.io/repos/github/FDMediagroep/fdmg-ts-react-h2/badge.svg?branch=master)](https://coveralls.io/github/FDMediagroep/fdmg-ts-react-h2?branch=master)
 
 # fdmg-ts-react-h2
 [ReactJS](https://reactjs.org/) H2 component. This component renders an H2 header.
