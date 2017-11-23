@@ -1,13 +1,18 @@
 import * as React from 'react';
 
+export interface Props {
+    className?: string;
+    text: string;
+}
+
 /**
  * H2 compononent renders a heading
  */
-export default class H2 extends React.Component {
+export default class H2 extends React.Component<Props, any> {
     public state: any;
-    public props: any;
+    public props: Props;
 
-    constructor(props: any) {
+    constructor(props: Props) {
         super(props);
         this.props = props;
         console.info('H2 component', props);

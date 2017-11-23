@@ -1,12 +1,16 @@
 /// <reference types="react" />
 import * as React from 'react';
+export interface Props {
+    className?: string;
+    text: string;
+}
 /**
  * H2 compononent renders a heading
  */
-export default class H2 extends React.Component {
+export default class H2 extends React.Component<Props, any> {
     state: any;
-    props: any;
-    constructor(props: any);
+    props: Props;
+    constructor(props: Props);
     componentDidMount(): void;
     componentWillUnmount(): void;
     componentWillReceiveProps(nextProps: any): void;
