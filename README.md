@@ -1,6 +1,8 @@
 [![Build Status](https://travis-ci.org/FDMediagroep/fdmg-ts-react-h2.svg?branch=master)](https://travis-ci.org/FDMediagroep/fdmg-ts-react-h2)
 [![Coverage Status](https://coveralls.io/repos/github/FDMediagroep/fdmg-ts-react-h2/badge.svg?branch=master)](https://coveralls.io/github/FDMediagroep/fdmg-ts-react-h2?branch=master)
 
+[![npm version](https://badge.fury.io/js/fdmg-ts-react-h2.svg)](https://badge.fury.io/js/fdmg-ts-react-h2)
+
 # fdmg-ts-react-h2
 [ReactJS](https://reactjs.org/) H2 component. This component renders an H2 header.
 You might think it silly to have this as a separate component. But when you use an H2-element multiple times in your
