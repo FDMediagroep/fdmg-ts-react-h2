@@ -9,13 +9,22 @@ exports[`H2 renders correctly 1`] = `
 exports[`H2 renders correctly 2`] = `
 <h2
   className={undefined}
-/>
+>
+  test h2
+</h2>
 `;
 
 exports[`H2 renders correctly 3`] = `
 <h2
   className={undefined}
-/>
+>
+  <span>
+    testing 123
+  </span>
+  <div>
+    testing 456
+  </div>
+</h2>
 `;
 
 exports[`H2 renders correctly with CSS class 1`] = `

@@ -26,7 +26,7 @@ test('H2 renders correctly', () => {
 
 test('H2 renders correctly with CSS class', () => {
     const component = renderer.create(
-        <H2 text={'test h2'} className={'title'}/>
+        <H2 className={'title'}>test h2</H2>
     );
     let tree = component.toJSON();
     expect(tree).toMatchSnapshot();

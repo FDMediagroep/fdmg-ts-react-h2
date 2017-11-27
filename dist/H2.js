@@ -23,7 +23,7 @@ var H2 = /** @class */ (function (_super) {
         return _this;
     }
     H2.prototype.render = function () {
-        return (React.createElement("h2", { className: this.props.className }, this.props.text));
+        return (React.createElement("h2", { className: this.props.className }, this.props.children));
     };
     return H2;
 }(React.Component));

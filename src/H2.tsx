@@ -2,7 +2,7 @@ import * as React from 'react';
 
 export interface Props {
     className?: string;
-    text: string;
+    children?: JSX.Element[]|HTMLElement[]|string|number;
 }
 
 /**
@@ -20,7 +20,7 @@ export default class H2 extends React.Component<Props, any> {
 
     render() {
         return (
-            <h2 className={this.props.className}>{this.props.text}</h2>
+            <h2 className={this.props.className}>{this.props.children}</h2>
         );
     }
 }

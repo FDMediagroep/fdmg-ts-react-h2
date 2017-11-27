@@ -2,7 +2,7 @@
 import * as React from 'react';
 export interface Props {
     className?: string;
-    text: string;
+    children?: JSX.Element[] | HTMLElement[] | string | number;
 }
 /**
  * H2 compononent renders a heading
