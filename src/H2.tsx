@@ -18,18 +18,6 @@ export default class H2 extends React.Component<Props, any> {
         console.info('H2 component', props);
     }
 
-    componentDidMount() {
-        console.info('H2 mounted');
-    }
-        
-    componentWillUnmount() {
-        console.info('H2 will unmount');
-    }
-
-    componentWillReceiveProps(nextProps) {
-        console.info('H2 next props', nextProps);
-    }
-
     render() {
         return (
             <h2 className={this.props.className}>{this.props.text}</h2>

@@ -31,7 +31,7 @@ export default class foo {
     }
 
     render() {
-        return (<H2 text={'title'} className={'css-class-name'} />);
+        return (<H2 className={'css-class-name'}>title</H2>);
     }
 }
 ```
