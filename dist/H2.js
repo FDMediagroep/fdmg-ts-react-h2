@@ -22,15 +22,6 @@ var H2 = /** @class */ (function (_super) {
         console.info('H2 component', props);
         return _this;
     }
-    H2.prototype.componentDidMount = function () {
-        console.info('H2 mounted');
-    };
-    H2.prototype.componentWillUnmount = function () {
-        console.info('H2 will unmount');
-    };
-    H2.prototype.componentWillReceiveProps = function (nextProps) {
-        console.info('H2 next props', nextProps);
-    };
     H2.prototype.render = function () {
         return (React.createElement("h2", { className: this.props.className }, this.props.text));
     };
