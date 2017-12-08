@@ -15,7 +15,6 @@ export default class H2 extends React.Component<Props, any> {
     constructor(props: Props) {
         super(props);
         this.props = props;
-        console.info('H2 component', props);
     }
 
     render() {
