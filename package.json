@@ -1,11 +1,11 @@
 {
   "name": "fdmg-ts-react-h2",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "ReactJS H2 component",
   "main": "dist/H2.js",
   "types": "dist/H2.d.ts",
   "scripts": {
-    "release": "npm test && npm update && npm install && yarn && tsc -d",
+    "release": "npm update && npm install && yarn && npm run test && npm run lint && tsc -d",
     "test": "jest",
     "lint": "tslint -p .",
     "updateSnapshot": "jest --updateSnapshot",
@@ -25,6 +25,7 @@
     "enzyme-adapter-react-16": "^1.1.0",
     "enzyme-to-json": "^3.2.2",
     "jest": "^21.2.1",
+    "jest-cli": "^21.2.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-test-renderer": "^16.2.0",
