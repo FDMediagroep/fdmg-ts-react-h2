@@ -2,7 +2,7 @@ import * as React from 'react';
 import * as renderer from 'react-test-renderer';
 import H2 from '../src/H2';
 
-console.info = function() {};
+console.info = () => {};
 
 test('H2 renders correctly', () => {
     let component = renderer.create(
@@ -28,6 +28,6 @@ test('H2 renders correctly with CSS class', () => {
     const component = renderer.create(
         <H2 className={'title'}>test h2</H2>
     );
-    let tree = component.toJSON();
+    const tree = component.toJSON();
     expect(tree).toMatchSnapshot();
 });
