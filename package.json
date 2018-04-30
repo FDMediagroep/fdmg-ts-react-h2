@@ -1,6 +1,6 @@
 {
   "name": "@fdmg/ts-react-h2",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "ReactJS H2 component",
   "main": "dist/H2.js",
   "types": "dist/H2.d.ts",
